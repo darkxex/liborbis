@@ -13,7 +13,63 @@ cd /usr/local/orbisdev
 ## Compile & Install
 The compile process is quite simple, just do
 ```
-make clean all install
+d /home/ps4dev/liborbis && cd libdebugnet && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd libelfloader && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd libps4link && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisPad && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisAudio && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisFile && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd libmod && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd portlibs && \
+                                cd libz && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd libpng && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd .. && \
+                                cd liborbis2d && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisFileBrowser && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisGl && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisXbmFont && \
+                                make && \
+                                make install && \
+                                cd .. && \
+                                cd liborbisKeyboard && \
+                                make && \
+                                make install
 ```
 
 ## Examples
