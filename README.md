@@ -13,7 +13,7 @@ cd /usr/local/orbisdev
 ## Compile & Install
 The compile process is quite simple, just do
 ```
-d /home/ps4dev/liborbis && cd libdebugnet && \
+cd /home/ps4dev/liborbis && cd libdebugnet && \
                                 make && \
                                 make install && \
                                 cd .. && \
